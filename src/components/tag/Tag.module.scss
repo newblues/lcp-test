@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  // border: 1px solid #ddd;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+}
+
+.tagItem {
+  color: white;
+  padding: 5px;
+  margin: 0px 5px 0px 5px;
+  border-radius: 3px;
+  background-color: #e22b76;
+}
+
+.tagItem--isSelected {
+  border: 1px solid black;
+}
+
+.logo {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+}

@@ -1,10 +1,14 @@
 import React from 'react';
 import css from './App.module.scss';
 
-function App() {
-  return (<div className={css.container}>
+import Tag from './components/tag/Tag';
 
-  </div>);
+function App() {
+  return (
+    <div className={css.container}>
+      <Tag placeholder='Type something...' />
+    </div>
+  );
 }
 
 export default App;
